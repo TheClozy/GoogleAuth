@@ -10,8 +10,6 @@ Kişisel Chrome tarayıcınıza dokunmadan her hesap için ayrı `user-data-dir`
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](LICENSE)
 [![undetected-chromedriver](https://img.shields.io/badge/undetected--chromedriver-3.5%2B-orange)](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
 
-**by [@Clozy](https://github.com/Clozy)**
-
 [Özellikler](#özellikler) · [Kurulum](#kurulum) · [Kullanım](#kullanım) · [GitHub'a yükleme](#githuba-yükleme)
 
 </div>
