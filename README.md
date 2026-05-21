@@ -61,46 +61,8 @@ python main.py
 | **Hesapları yönet** | Listele · tarayıcı aç · profil sil |
 | **Çıkış** | |
 
-### Ortam değişkenleri (isteğe bağlı)
-
-```powershell
-$env:SELENIUM_PROFILES_DIR = "D:\my_profiles"
-$env:CHROME_VERSION_MAIN = "148"
-python main.py -v
-```
-
 ---
 
-## Proje yapısı
-
-```
-GoogleAuth/
-├── main.py
-├── requirements.txt
-├── pyproject.toml
-├── benioku.txt
-├── chrome_profile_hub/
-│   ├── browser.py
-│   ├── cli.py
-│   ├── config.py
-│   ├── google_login.py
-│   ├── profile_manager.py
-│   └── ui.py
-├── scripts/
-│   └── clear_cache.ps1
-└── selenium_profiles/
-```
-
----
-
-## Akış
-
-```
-Yeni hesap → Profil klasörü → Google giriş → Gmail doğrula → Kaydet → Kapat
-Sonraki açılış → Aynı klasör → Gmail (girişli)
-```
-
----
 
 ## Sorun giderme
 
@@ -123,22 +85,6 @@ python main.py
 - `.gitignore` `selenium_profiles/` içeriğini hariç tutar
 - Google Hizmet Şartlarına uygun kullanın
 
----
-
-## GitHub'a yükleme
-
-```bash
-git init
-git add .
-git commit -m "feat: GoogleAuth v1.1.0"
-git branch -M main
-git remote add origin https://github.com/TheClozy/GoogleAuth.git
-git push -u origin main
-```
-
-GitHub'da **GoogleAuth** adlı boş repo oluşturun ([TheClozy/GoogleAuth](https://github.com/TheClozy/GoogleAuth)).
-
----
 
 ## Lisans
 
