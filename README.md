@@ -14,6 +14,8 @@ Kişisel Chrome tarayıcınıza dokunmadan her hesap için ayrı `user-data-dir`
 
 </div>
 
+![Ana Menü](docs/screenshots/screenshot1.jpg)
+
 ---
 
 ## Özellikler
