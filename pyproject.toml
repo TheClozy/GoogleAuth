@@ -1,0 +1,38 @@
+[project]
+name = "google-auth"
+version = "1.1.0"
+description = "GoogleAuth — isolated Chrome profiles for multiple Google accounts"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "TheClozy", url = "https://github.com/TheClozy" }]
+keywords = ["chrome", "selenium", "google", "profiles", "automation", "googleauth"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "undetected-chromedriver>=3.5.5",
+    "selenium>=4.15.0",
+]
+
+[project.scripts]
+google-auth = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/TheClozy/GoogleAuth"
+Repository = "https://github.com/TheClozy/GoogleAuth"
+Issues = "https://github.com/TheClozy/GoogleAuth/issues"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["chrome_profile_hub*"]

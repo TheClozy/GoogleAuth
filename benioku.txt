@@ -1,0 +1,37 @@
+================================================================================
+  GOOGLEAUTH — ÖNEMLİ GÜVENLİK UYARISI
+================================================================================
+
+Bu program Google hesap oturumlarını bilgisayarınızda saklar.
+
+NEREDE SAKLANIR?
+----------------
+Tüm hesap verileri proje klasöründeki "selenium_profiles" dizininde tutulur.
+Her hesap için ayrı bir alt klasör oluşturulur. Bu klasörlerde şunlar bulunur:
+
+  - Chrome profil dosyaları (çerezler, oturum bilgisi)
+  - profiles_registry.json (kayıtlı e-posta ve profil yolları)
+  - .session_cookies.json (oturum çerez yedeği)
+  - errors.log (hata kayıtları)
+
+Bu dosyalar sizin Google hesaplarınıza giriş yapılmış haldeki verileri içerir.
+Başka biri bu klasöre erişirse hesaplarınızı ele geçirebilir veya kötüye
+kullanabilir.
+
+RİSKLER
+-------
+  - Bilgisayarınıza sızan zararlı yazılımlar bu klasörü okuyabilir.
+  - Klasörü USB, bulut veya mesajla paylaşırsanız oturumunuz çalınabilir.
+  - GitHub'a veya herkese açık bir yere yüklemeyin (gitignore ile hariç tutulur).
+  - Ortak veya kiralanmış PC'lerde ekstra dikkat edin.
+
+NE YAPMALISINIZ?
+----------------
+  1. selenium_profiles klasörünü kimseyle paylaşmayın.
+  2. Projeyi Git'e gönderirken bu klasörün commit edilmediğinden emin olun.
+  3. Kullanmadığınız hesapları programdan silin.
+  4. Şüpheli durumda Google hesabınızda şifre değiştirin ve oturumları kapatın.
+
+================================================================================
+  Bu metni okuduktan sonra bu dosyayı (benioku.txt) imha edin.
+================================================================================
